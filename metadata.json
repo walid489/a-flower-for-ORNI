@@ -1,0 +1,6 @@
+{
+  "name": "A Flower for Orni",
+  "description": "A romantic, interactive midnight garden and blooming flower gift crafted for Orni.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

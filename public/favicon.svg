@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#2a102b" />
+      <stop offset="100%" stop-color="#060713" />
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#060713" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="pBack" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#831843" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+    <linearGradient id="pFront" x1="50%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#be185d" />
+      <stop offset="55%" stop-color="#fb7185" />
+      <stop offset="100%" stop-color="#ffe4e6" />
+    </linearGradient>
+    <linearGradient id="stem" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)" />
+  <circle cx="32" cy="28" r="24" fill="url(#glow)" />
+  <path d="M32 56 C31 48, 33 41, 32 34" stroke="url(#stem)" stroke-width="2.8" stroke-linecap="round" fill="none" />
+  <path d="M32 47 C26 45, 22 41, 20 37 C25 37, 29 41, 32 47 Z" fill="#22c55e" />
+  <path d="M32 43 C38 41, 42 37, 44 33 C39 33, 35 37, 32 43 Z" fill="#4ade80" />
+  <path d="M32 34 C24 27, 24 15, 32 10 C40 15, 40 27, 32 34 Z" fill="url(#pBack)" />
+  <path d="M32 34 C20 31, 15 21, 22 14 C30 16, 33 26, 32 34 Z" fill="url(#pFront)" opacity="0.92" />
+  <path d="M32 34 C44 31, 49 21, 42 14 C34 16, 31 26, 32 34 Z" fill="url(#pFront)" opacity="0.92" />
+  <path d="M32 35 C25 29, 26 19, 32 15 C38 19, 39 29, 32 35 Z" fill="url(#pFront)" />
+  <circle cx="32" cy="22" r="2.8" fill="#fef08a" />
+  <circle cx="32" cy="22" r="5" fill="#fde047" opacity="0.28" />
+</svg>
